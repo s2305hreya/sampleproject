@@ -1,0 +1,207 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Bitter:wght@400;800&family=Black+Han+Sans&family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+.main{
+   background-color: #ECDAC2;
+}
+.navbar{
+    background-color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    text-align: centre;
+    justify-content: space-between;
+    height: 50px;
+    
+}
+.navdiv ul{
+    display: inline-flex;
+  }
+  .navdiv ul li{
+    list-style: none;
+    margin-left: 7px;
+    font-family: bitter;
+  }
+  .navdiv ul li:first-child{
+    margin-left: 0px;
+  }
+  .navdiv ul li a{
+    text-decoration: none;
+    color: #0eb635;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .navdiv ul li a:hover{
+    background: #c62424;
+    color: black;
+  }
+
+button{
+    background-color: white;
+    border-radius: 10px;
+}
+.download{
+    border-style: solid;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 900px;
+    margin-top: 150px;
+    padding: 15px;
+    border-radius: 40px;
+    padding-left: 35px;
+    background-color: rgb(108, 227, 81);
+    font-family: 'Black Han Sans', sans-serif;
+    width:
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+.navdiv ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .navdiv ul li a:hover{
+    background: rgb(127, 124, 124);
+    color: black;
+  }
+.download:hover{
+background: green;
+font-size: 20px;
+margin-right: 880px;
+}
+.heading{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 80px;
+    text-shadow: 0px 5px 5px rgba(128, 128, 128, 0.5);
+}
+.main{
+    padding: 10px;}
+
+.text2{
+margin-top: 60px;
+font-family: 'Black Han Sans', sans-serif;
+font-size: 25px;
+text-shadow: 0px 5px 5px rgba(128, 128, 128, 0.5);
+
+}
+.pictures{
+    position: relative;
+    margin-top: 280px ;
+    margin-right: 70px;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 00px 00px;
+    background-color: rgb(97, 97, 97);
+    border-style: solid;
+    border-width: 30px;
+    border-color: black;
+}
+
+
+.last{
+    margin-top: 60px;
+    margin-left: 300px;
+}
+ .lofi{
+    position:absolute;
+    top: 1310px;
+    right:250px;
+    font-size: 50px;
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+ }
+ .money{
+ position:absolute;
+ font-size: 200px;
+ top: 1500px;
+ left:300px;
+ font-family: 'Black Han Sans', sans-serif;
+ color: rgba(118, 215, 83, 0.381);
+ -webkit-text-stroke: 3px black;
+ }
+ .heading {
+    /* width: 350px; */
+    animation-name: text;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+/* .text2{
+    animation-name: text;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+} */
+@keyframes text {
+    from {
+        margin-left: 60%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+.navdiv {
+    animation-name: color;
+    animation-duration: 25s;
+    
+}
+ @keyframes color {
+            0% {
+                background-color: red;
+            }
+ 
+            50% {
+                background-color: orange;
+            }
+ 
+            100% {
+                background-color: brown;
+            }
+        }
+.text1:hover{
+    font-size:20px; 
+}
+.text2:hover{
+    color: darkgreen;
+    font-size: 50px;
+}
+.broken{
+    font-family: 'black han sans';
+    color:aliceblue;
+    font-size:30px;
+}
+.a{
+    font-family: 'black han sans';
+    color:red;
+    font-size:30px;
+}
+.rt{
+    font-family: 'black han sans';
+    color:aliceblue;
+    font-size:30px;
+}
+.text3{
+    position: absolute;
+    display: flex;
+    left:130px;
+    top:2000px;
+}
+.text1{
+    font-family: BIZ UVMincho;
+}
